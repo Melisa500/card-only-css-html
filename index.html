@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+<body>
+    <div class="card">
+        <p class="credits">Páctica de Maqueta Melisa500 Github - crédito del diseño Dima Tischenko - Crédito del Personaje Multiverso</p>
+        <menu class="card__menu">
+            <span class="card__menu-icon material-symbols-outlined">arrow_back</span>
+            <nav class="card__nav">
+                <ul class="card__list">
+                    <li class="card__item card__item--active">My profile</li>
+                    <li class="card__item">Store</li>
+                </ul>
+            </nav>
+        </menu>
+        <section class="card__profile">
+            <div class="card__view">
+                <div class="card__view-item card__view-item--active"></div>
+                <div class="card__view-item"></div>
+            </div>
+            <div class="card__image">
+                <img src="./assests/jason-lg.jpg" alt="perfil">
+            </div>
+            <div class="card__details">
+                <div class="card__level">Level 17</div>
+            </div>
+        </section>
+        <section class="card__character">
+            <div class="card__character-data">
+                <p class="card__character-name">Yuki Fixi</p>
+                <p class="card__character-status">saw death</p>
+            </div>
+            <div class="card__update">
+                <p class="card__update-text">Update</p>
+                <p class="card__update-line"></p>
+            </div>
+        </section>
+        <section class="card__team">
+            <p class="card__team-title">All team</p>
+            <div class="card__team-container">
+                <div class="card__team-info">
+                    <p class="card__team-info-title">Team</p>
+                    <p class="card__team-info-name">Insurgency</p>
+                </div>
+                <div class="card__team-images">
+                    <!-- img *3 -->
+                    <div class="card__team-characters"></div>
+                    <div class="card__team-characters"></div>
+                    <div class="card__team-characters"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="card__footer">
+            <div class="card__stats">
+                <p class="card__stats-title">Statistics of the last battle</p>
+                <div class="card__stats-graph"></div>
+            </div>
+            <button class="card__button">Team chat</button>
+        </footer>
+    </div>
+</body>
+</html>

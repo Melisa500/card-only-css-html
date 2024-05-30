@@ -1,0 +1,246 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+
+.credits {
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #33333343;
+}
+
+.card {
+    background-color: #F1B43B;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 375px;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.card__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.card__menu-icon {
+    cursor: pointer;
+}
+
+.card__nav {
+    display: flex;
+}
+
+.card__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #BD8214;
+}
+
+.card__item {
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.card__item--active {
+    color: black;
+}
+
+.card__profile {
+    text-align: center;
+    position: relative;
+}
+
+.card__image {
+    width: 350px;
+    height: 350px;
+    background-color: #1E1E1E;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card__image img {
+    width: 350px;
+}
+
+.card__view {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 28px;
+}
+
+.card__view-item {
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    border: solid 3px #1E1E1E;
+    margin-left: 5px;
+}
+
+.card__view-item--active {
+    background-color: #1E1E1E;
+}
+
+.card__details {
+    margin-top: 10px;
+}
+
+.card__level {
+    font-size: 15px;
+    font-weight: 900;
+    color: #aa2109;
+    position: absolute;
+    left: 28px;
+}
+
+.card__character {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card__character-data {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card__character-name {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+}
+
+.card__character-status {
+    font-size: 50px;
+    font-weight: 50px;
+    margin: 0;
+}
+
+.card__update {
+    display: flex;
+    text-align: left;
+    margin: 0;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.card__update-text {
+    font-weight: bold;
+}
+
+.card__update-line {
+    border-bottom-style: solid;
+    border-width: medium;
+    width: 150px;
+}
+
+.card__team-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.card__team-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card__team-info {
+    text-align: left;
+}
+
+.card__team-info-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card__team-info-name {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.card__team-images {
+    display: flex;
+    gap: 10px;
+}
+
+.card__team-characters {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(254, 249, 249);
+    border-radius: 10px;
+}
+
+.card__footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #1E1E1E;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0px 18px;
+    align-items: center;
+}
+
+.card__stats {
+    margin-bottom: 10px;
+
+}
+
+.card__stats-title {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.card__stats-graph {
+    width: 80px;
+    height: 3px;
+    background-color: #F1B43B;
+    border-radius: 5px;
+}
+
+.card__button {
+    background-color: #F1B43B;
+    height: 40px;
+    width: 130px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #463310;
+    font-weight: 700;
+}
